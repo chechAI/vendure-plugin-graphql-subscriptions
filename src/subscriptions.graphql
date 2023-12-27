@@ -1,0 +1,11 @@
+type Subscription {
+    commentAdded: String
+}
+
+type Mutation {
+    addComment(comment: String!): String!
+}
+
+type Query {
+    somehowWeNeedAQuery: Boolean
+}
